@@ -6,13 +6,13 @@
     padding: 0;
 }
 body{
-    background: #eee;
+    background: #b5CAA0;
     color: #666;
     -webkit-font-smoothing: antialiased;
 }
 header{
     font-size: 40px;
-    color: rgba(175, 47, 47, 0.15);
+    color: #405B55;
     text-align: center;
     margin-top: 50px;
 }
@@ -108,11 +108,13 @@ input{
 .item em:before,.item em:after{
     content: '';
     display: block;
-    width: 25px;
+    width: 15px;
     height: 1px;
     background: #cc9a9a;
     position: relative;
-    top: 13px;
+    /*top: 13px;*/
+    top:50%;
+    transform: translateY(-50%);
 }
 .item em:before{
     transform: rotate(45deg);
