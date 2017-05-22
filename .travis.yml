@@ -8,3 +8,6 @@ install:
     npm install --registry http://registry.npmjs.or
 after_success:
 - npm run coveralls
+branches:
+  only:
+    - gh-pages
